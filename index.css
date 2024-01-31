@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.city-name{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items horizontally */
+    text-align: center; 
+}
+
+img{
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.temperature, .info {
+    margin-left: 5px; /* Add margin for spacing */
+}
+.temperature{
+    font-size: 6rem;
+}
+
+.same{
+    margin-bottom: 10px;
+}
